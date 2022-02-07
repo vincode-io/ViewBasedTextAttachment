@@ -14,7 +14,6 @@ class TestAttachmentViewProvider: NSTextAttachmentViewProvider {
 		
 		view = UIView()
 		view?.backgroundColor = .systemRed
-		view?.isUserInteractionEnabled = false
 		
 		textAttachment.bounds = CGRect(x: 0, y: 0, width: 15, height: 15)
 	}
