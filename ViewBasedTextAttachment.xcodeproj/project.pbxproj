@@ -14,7 +14,6 @@
 		51341DF4272AFCF50005425B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51341DF3272AFCF50005425B /* Assets.xcassets */; };
 		51341DF7272AFCF50005425B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51341DF5272AFCF50005425B /* LaunchScreen.storyboard */; };
 		51341E00272AFE750005425B /* TestAttachmentViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51341DFF272AFE750005425B /* TestAttachmentViewProvider.swift */; };
-		51341E02272AFEE40005425B /* TestTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51341E01272AFEE40005425B /* TestTextAttachment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 		51341DF8272AFCF50005425B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51341DFE272AFD070005425B /* ViewBasedTextAttachment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ViewBasedTextAttachment.entitlements; sourceTree = "<group>"; };
 		51341DFF272AFE750005425B /* TestAttachmentViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAttachmentViewProvider.swift; sourceTree = "<group>"; };
-		51341E01272AFEE40005425B /* TestTextAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextAttachment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 				51341DEA272AFCF30005425B /* AppDelegate.swift */,
 				51341DEC272AFCF30005425B /* SceneDelegate.swift */,
 				51341DFF272AFE750005425B /* TestAttachmentViewProvider.swift */,
-				51341E01272AFEE40005425B /* TestTextAttachment.swift */,
 				51341DEE272AFCF30005425B /* ViewController.swift */,
 				51341DF3272AFCF50005425B /* Assets.xcassets */,
 				51341DF5272AFCF50005425B /* LaunchScreen.storyboard */,
@@ -149,7 +146,6 @@
 				51341E00272AFE750005425B /* TestAttachmentViewProvider.swift in Sources */,
 				51341DEF272AFCF30005425B /* ViewController.swift in Sources */,
 				51341DEB272AFCF30005425B /* AppDelegate.swift in Sources */,
-				51341E02272AFEE40005425B /* TestTextAttachment.swift in Sources */,
 				51341DED272AFCF30005425B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

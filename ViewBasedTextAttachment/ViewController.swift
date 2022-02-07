@@ -14,10 +14,11 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		NSTextAttachment.registerViewProviderClass(TestAttachmentViewProvider.self, forFileType: "org.opml.opml")
+		NSTextAttachment.registerViewProviderClass(TestAttachmentViewProvider.self, forFileType: "public.text")
 
 		let mutableAttrString = NSMutableAttributedString(string: "Test View -> ", attributes: [.font : UIFont.preferredFont(forTextStyle: .body), .foregroundColor : UIColor.label])
-		let attachment = TestTextAttachment(data: "Test Data".data(using: .utf8), ofType: "org.opml.opml")
+		let attachment = NSTextAttachment()
+		attachment.fileType = "public.text"
 		let imageAttrText = NSAttributedString(attachment: attachment)
 		mutableAttrString.insert(imageAttrText, at: mutableAttrString.length)
 		
